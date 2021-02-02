@@ -20,13 +20,14 @@
             android:id="@+id/instruction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Press the button to get help..." />
+            android:text="@string/press_the_button_to_get_help" />
 
         <Button
             android:id="@+id/help"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GET HELP" />
+            android:onClick="onClickHelp"
+            android:text="@string/get_help" />
 
         <TextView
             android:id="@+id/helpText"
